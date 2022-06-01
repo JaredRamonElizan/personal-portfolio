@@ -1,0 +1,131 @@
+body{
+    background: lightsalmon;
+}
+@media screen and (min-width: 80px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+#welcome-section{
+font-family: monospace;
+font-size: 2em;
+margin: 1em 4em 4em 4em;
+
+display: flex;
+justify-content: center;
+position: relative;
+left: -5vh;
+top: 10vh;
+
+height: 100vh;
+}
+#p1{
+    margin-top: -1em;
+
+}
+#navbar{
+    background:#F8F0C6;
+
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.4);
+
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.nav-text{
+    margin: 1em 1em 1em 1em;
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    padding: 0.3em;
+}
+.nav-text:hover{
+    top: 0;
+    left: 0;
+    background: cyan;
+
+}
+#project-header{
+    display: flex;
+    justify-content: center;
+    color: teal;
+    text-shadow: 2px 2px red;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3em;
+    margin: 1em;
+    position: relative;
+    top: 20vh;
+}
+.project-tile{
+    text-align: center;
+    width: 15em;
+    padding: 20px;
+    border: 6px inset #00ffff;
+    background: #7fffd4;
+    margin: 1em;
+    transition: all 300ms ease 0s;
+    position: relative;
+    top: 20vh;
+
+}
+.project-tile:hover{
+  transform: translate3d(0px, 20px, 0px)
+}
+.project-image{
+    width: 15em;
+}
+ .project-title{
+     font-size: 1.5rem;
+    font-family:cursive;
+
+ }
+ .ProductLP{
+    width: 18em;
+ }
+ #projects{
+     display: flex;
+     flex-direction: row
+ }
+ #contact{
+
+     position: relative;
+     top: 40vh;
+     margin-bottom: -9em;
+ }
+ #caption{
+     display: flex;
+     justify-content: center;
+     font-family: cursive;
+     font-size: 2.4em;
+ }
+ #github-img{
+    display: flex;
+    align-self: center;
+     height: 5em;
+     width: 10em;
+     margin-top: -1.3em;
+ }
+ #github-img:hover{
+    transition: all 300ms ease 0s;
+    position: relative;
+    transform: translate3d(4px, 0px, 4px);
+ }
+ #profile-link{
+     display: flex;
+     justify-content: center;
+ }
+ footer{
+     position: relative;
+     top: 70vh;
+     left: -4vh;
+     width: 100%;
+     background-color: #7AD9FF;
+     text-align: right;
+     padding: 0.5em;
+     margin: 1em;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
